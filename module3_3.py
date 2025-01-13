@@ -1,14 +1,3 @@
-# def print_params(**kwargs): #*arg, **kwargs
-#     for key, value in kwargs.items():
-#         print(key, value)
-#
-# dict_ = {'a':1, 'b':2, 'd':3}
-# print_params(**dict_)
-
-#list_ = [1, 2, 3]
-#print_params(list_, 2, 3)
-#print_params(*list_)
-
 # def print_params(a = 1, b = 'строка', c = True):
 #     print(a, b, c)
 # # Вызов функции без аргументов
@@ -34,5 +23,4 @@ values_list_2 = [54.32, 'Строка']
 
 print_params(*values_list)
 print_params(**values_dict)
-
 print_params(*values_list_2, 42)
